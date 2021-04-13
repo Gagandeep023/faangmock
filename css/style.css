@@ -82,6 +82,7 @@ body.active #Banner .blacksection::before  {
 	-ms-transition-delay: 1s;
 }
 body.active #Banner h1  {
+  right: auto;
 	opacity: 1;
 	left: 50%;
   transform: translate(-50%,-50%);
@@ -92,7 +93,7 @@ body.active #Banner h1  {
 	-ms-transition-delay: 1.5s;
 }
 #Banner h3 {
-  top: 45%;
+  top: 55%;
   position: absolute;
   left: 50%;
   color: white;
@@ -106,7 +107,7 @@ body.active #Banner h1  {
 	font-family: 'Futura PT book';
   position: absolute;
   margin: 0;
-  /* padding: 1.5rem 2rem; */
+  padding: 1rem 2rem;
   text-align: center;
   right: 0%;
   top: 70%;
@@ -252,7 +253,7 @@ body.active .mscroll {
 #Services .each-services img {
 	width: 80px;
 	height: auto;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 }
 #Services .each-services h3 {
 	color: #000;
@@ -262,6 +263,7 @@ body.active .mscroll {
 	margin-bottom: 20px;
 }
 #Services .each-services p {
+  padding: 0 1rem;
 	color: #000;
 	font-size: 18px;
 	line-height: 120%;
@@ -346,17 +348,21 @@ body.active .mscroll {
     top: 0;
 }
 #OurBlog .each-block.two {
-    top: 40%;
+    top: 25%;
     right: 0;
 }
 #OurBlog .each-block.three {
-    top: 78%;
+    top: 50%;
     left: 0;
 }
 #OurBlog .each-block.four {
-  top: 100;
-  right: 0;
+    top: 75%;
+    right: 0;
 }
+/* #OurBlog .each-block.four:before {
+  right: auto;
+  left: -34%;
+} */
 #OurBlog .each-block .icon {
   float: left;
   background-color: #e6275c;
@@ -636,4 +642,15 @@ body.active .mscroll {
 .copyright p {
 	margin-bottom: 0;
 }
+.col-md-4 a button, .col-lg-4 a button, .col-xl-4 a button{
+  cursor: pointer;
+  margin-top: 10px;
+  min-height: 350px;
+  border: 1px solid #c3c3cb;
+}
+.col-md-4:hover {
+  padding: 0;
+  box-shadow: 1px 10px 6px rgb(187, 187, 187);
+}
+
 /* Footer */

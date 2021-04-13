@@ -6,8 +6,8 @@
 	#Banner {
 		width: 100%;
 	}
-	/* header {
-		background: #e64741;
+	header {
+		background: #e64173;
 		position: fixed;
 		width: 100%;
 		padding: 20px;
@@ -23,7 +23,7 @@
 	.mobile-logo img {
 		width: 100%;
 		height: auto;
-	} */
+	}
 	#Banner h1 {
 		font-size: 1rem;
 		right: auto;
@@ -33,6 +33,11 @@
 		left: 47.5%;
 		text-align: left;
 		padding: 15px;
+	}
+	#Banner h3 {
+		font-size: 1rem;
+		left: 13%;
+		transform: none;
 	}
 	.mobile-header {
 		display: block;
