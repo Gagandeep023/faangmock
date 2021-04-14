@@ -16,7 +16,7 @@
 	}
 	
 	header {
-		background: #e64173;
+		background:#0363cd;
 		position: fixed;
 		width: 100%;
 		padding: 20px;
@@ -45,8 +45,9 @@
 	}
 	#Banner h3 {
 		font-size: 1rem;
-		left: 13%;
+		left: 24%;
 		transform: none;
+		top: 63%;
 	}
 	.mobile-header {
 		display: block;
@@ -163,7 +164,7 @@
 		height: 60vh;
 	}
 	header {
-		background: #e64741; /* Old browsers */
+		background: #0363cd; /* Old browsers */
 		position: fixed;
 		width: 100%;
 		padding: 20px;

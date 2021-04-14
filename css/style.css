@@ -53,10 +53,11 @@ ul, li {
 	width: 0;
 	height: 100vh;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e64741+0,e6255d+100,7db9e8+100 */
-	background: #e64741; /* Old browsers */
+	background: #2673c7;
+  ; /* Old browsers */
 	background: -moz-linear-gradient(top, #e64741 0%, #e6255d 100%, #7db9e8 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #e64741 0%,#e6255d 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #aba9a9 0%,#b5697e 100%,#576c7b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: -webkit-linear-gradient(top, #0062cc 0%,#007bff 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+	background:linear-gradient(to bottom, #0062cc 0%,#68a8ec 100%,#576c7b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e64741', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
 	overflow: hidden;
 	position: relative;
@@ -102,7 +103,7 @@ body.active #Banner h1  {
 }
 #Banner h1 {
   cursor: pointer;
-  background-color: #e6275c;
+  background-color: #105fb3;
 	color: #fff;
 	font-size: 2rem;
 	font-family: 'Futura PT book';
