@@ -359,14 +359,19 @@ body.active .mscroll {
     top: 75%;
     right: 0;
 }
-/* #OurBlog .each-block.four:before {
-  right: auto;
-  left: -34%;
-} */
-#OurBlog .each-block .icon {
-  float: left;
+
+/* #OurBlog .each-block .icon {
+  float: left; 
   background-color: #e6275c;
   padding: 8px 10px 4px;
+  margin-right: 16px;
+  
+} */
+#OurBlog .each-block .icon img {
+  float: left;
+  width:  15%;
+  /* height: auto; */
+  /* padding: 8px 10px 4px; */
   margin-right: 16px;
 }
 #OurBlog .blog-wrap .blog-intro {
@@ -404,7 +409,7 @@ body.active .mscroll {
     content: "";
     width: 14px;
     height: 14px;
-    background-color: #e6275c;
+    background-color: #34aef8;;
     position: absolute;
     border-radius: 50%;
     right: -34%;
@@ -423,7 +428,7 @@ body.active .mscroll {
 	text-align: center;
 }
 #OurBlog .learnmore a {
-    background-color: #e6275c;
+    background-color: #006ecc;
     color: #fff;
     padding: 20px 30px;
     font: 700 24px/100% 'Futura PT book';
@@ -593,7 +598,7 @@ body.active .mscroll {
 }
 #Contact a.email-btn {
     color: #fff;
-    background-color: #f46674;
+    background-color: #1987fd;
     padding: 12px 30px;
     display: inline-block;
     border-radius: 6px;
