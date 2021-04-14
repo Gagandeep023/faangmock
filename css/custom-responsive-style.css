@@ -6,6 +6,15 @@
 	#Banner {
 		width: 100%;
 	}
+	#Contact p{
+		font-size: 20px;
+	}
+	#Contact a.email-btn{
+		padding: 1px;
+		font-size: 20px;
+		width: 94px;
+	}
+	
 	header {
 		background: #e64173;
 		position: fixed;

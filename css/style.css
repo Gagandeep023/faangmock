@@ -47,6 +47,7 @@ ul, li {
   top: 2%;
   left: 1.6%;
   opacity: 0;
+  color: white;
 }
 #Banner {
 	width: 0;
@@ -143,6 +144,7 @@ body.active .mscroll {
 }
 .mobile-header, .mobile-logo {
 	display: none;
+  
 }
 
 .mobile-header img {
@@ -268,6 +270,8 @@ body.active .mscroll {
 	font-size: 18px;
 	line-height: 120%;
 	font-family: 'Futura PT book';
+  text-align: justify;
+  text-justify: inter-word; 
 }
 /* Our Digital services style ends here */
 /* Our work begin */
@@ -473,6 +477,13 @@ body.active .mscroll {
 	font: 18px/125% 'Futura PT book';
 	margin-bottom: 20px;
 	text-align: center;
+  /* text-align: justify; */
+  /* text-justify: inter-word;  */
+  /* text-justify: auto|inter-word|inter-character|none|initial|inherit; */
+  /* text-align:justify/left/right/center; */
+  /* text-justify:values;   */
+  display: flex;
+  justify-content: center;
 }
 #Testimonials .testi-wrapper {
 	margin-top: 90px;
@@ -484,6 +495,11 @@ body.active .mscroll {
 }
 #Testimonials .testi-wrapper  .latest-testimonials {
 	margin-right: 10px;
+}
+#Testimonials .testi-wrapper  .latest-testimonials p{
+
+  text-align: justify;
+  text-justify: inter-word; 
 }
 #Testimonials .testi-wrapper  .old-testimonials {
 	background: red;
@@ -533,6 +549,7 @@ body.active .mscroll {
 #Testimonials .each-testi p {
 	color: #fff;
 }
+
 /* #Testimonials .each-testi .profile {
 	position: absolute;
 	bottom: 30px;
