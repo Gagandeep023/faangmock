@@ -222,8 +222,8 @@ body.active .mscroll {
 .menu-toggle {
   position: fixed;
   right: 30px;
-  top: 30px;
-  padding: 4px 10px;
+  top: 27px;
+  /* padding: 4px 10px; */
   text-align: center;
   color: #fff;
   background: #000;

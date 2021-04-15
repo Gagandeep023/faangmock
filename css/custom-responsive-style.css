@@ -14,7 +14,9 @@
 		font-size: 20px;
 		width: 94px;
 	}
-	
+	.menu-toggle {
+		top: 14px;
+	}
 	header {
 		background:#0363cd;
 		position: fixed;
@@ -34,20 +36,24 @@
 		height: auto;
 	}
 	#Banner h1 {
-		font-size: 1rem;
+		font-size: 1.4rem;
 		right: auto;
 		top: 70%;
 		transform: translate(-48%,-48%);
 		opacity: 1;
 		left: 47.5%;
 		text-align: left;
-		padding: 6px;
+		padding: 5px;
+		
+		
+		width: 261px;
 	}
 	#Banner h3 {
-		font-size: 1rem;
-		left: 20%;
+		font-size: 2rem;
+		left: 16%;
 		transform: none;
-		top: 63%;
+		top: 34%;
+		color: black;
 	}
 	.mobile-header {
 		display: block;
