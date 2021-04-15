@@ -16,6 +16,8 @@
 	}
 	.menu-toggle {
 		top: 14px;
+		background: #0062cc;
+		right: 0px;
 	}
 	header {
 		background:#0363cd;
@@ -50,7 +52,7 @@
 	}
 	#Banner h3 {
 		font-size: 2.4rem;
-		left: 6%;
+		left: 13%;
 		transform: none;
 		top: 37%;
 		color: black;
