@@ -43,16 +43,16 @@
 		opacity: 1;
 		left: 47.5%;
 		text-align: left;
-		padding: 5px;
+		padding: 9px;
+		height: 48px;
 		
-		
-		width: 261px;
+		width: 280px;
 	}
 	#Banner h3 {
-		font-size: 2rem;
-		left: 16%;
+		font-size: 2.4rem;
+		left: 6%;
 		transform: none;
-		top: 34%;
+		top: 37%;
 		color: black;
 	}
 	.mobile-header {

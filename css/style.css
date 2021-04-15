@@ -106,6 +106,7 @@ body.active #Banner h1  {
   background-color: #105fb3;
 	color: #fff;
 	font-size: 2rem;
+  border-radius: 12px;
 	font-family: 'Futura PT book';
   position: absolute;
   margin: 0;
